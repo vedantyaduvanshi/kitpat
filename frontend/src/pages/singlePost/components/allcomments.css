@@ -1,0 +1,36 @@
+#postBoxforcomments {
+    min-height: 105px;
+    max-height: auto;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    width: 560px;
+    margin: 12px auto;
+    justify-content: center;
+    background-color: transparent;
+}
+
+#replyingtotext {
+display: flex;
+flex-direction: row;
+align-items: center;
+    /* border: 0.1px solid white; */
+font-family: Calibri;
+font-size: 13px;
+}
+
+
+#replyingtotext p{
+    color: white;
+    opacity: 0.5;
+}
+
+
+
+#replyingtotext span{
+    color: rgb(0, 238, 255);
+    opacity: 0.8;
+    margin-left: 3px;
+    cursor: pointer;
+}

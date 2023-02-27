@@ -1,0 +1,116 @@
+#SelectNewProfilePic{
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    z-index: 1100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 650px;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+#SelectNewProfilePic h2{
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+#SelectNewProfilePic hr{
+width: 100%;
+opacity: 0.5;
+margin-top: 5px;
+}
+
+
+#SelectedPicture{
+    overflow: hidden;
+    margin-top: 10px;
+    height: 490px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid wheat; */
+}
+
+#slider{
+    margin-top: 15px;
+    z-index: 2000;
+    color: white;
+}
+
+#slider input{
+ width: 300px;
+}
+
+
+#slider input[type="range"]::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+    outline: none;
+    border-radius: 50%;
+    background-color: rgb(0, 238, 255);
+    box-shadow: 0px 0px 14px 2px rgb(0 238 255 / 75%);
+    -webkit-box-shadow: 0px 0px 14px 2px rgb(0 238 255 / 75%);
+    -moz-box-shadow: 0px 0px 14px 2px rgba(0,238,255,0.75);
+}
+
+
+#ButtonsPictureEdit{
+    margin-top: 594px;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 270px;
+}
+
+
+
+#ButtonsPictureEdit button{
+    height: 25px;
+    width: 90px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+
+
+#fullpagePic{
+    z-index: 1000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    border-color: transparent;
+    margin: 0px 0px;
+    object-fit: cover;
+}
+
+#fullpagepicbackground{
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.822);
+}

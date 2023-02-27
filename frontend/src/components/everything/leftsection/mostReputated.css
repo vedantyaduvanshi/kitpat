@@ -1,0 +1,115 @@
+#TopMostKats {
+    padding: 14px;
+    height: 340px;
+    float: right;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 14px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(161, 161, 161, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+  }
+  
+  
+  
+  #LeaderBoardanExplore{
+    height: 25px;
+    width: 200px;
+    background-color: #5e5d5d00;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  #LeaderboardinHome{
+    height: 25px;
+    width: 95px;
+    background-color: rgb(0, 238, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Calibri;
+    font-weight: bolder;
+  }
+  
+  #ExploreinHome{
+    height: 25px;
+    width: 95px;
+    background-color: #ffffff5d;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Calibri;
+    font-weight: bolder;
+  }
+
+
+  #reputastionLeaderboardScollabble{
+    margin-top:10px;
+    height: 270px;
+    width: 250px;
+  background-color: rgba(255, 0, 0, 0);
+    border-radius: 8px;
+    overflow-y: scroll;
+    display: grid;
+  }
+
+
+
+
+  #reputastionLeaderboardScollabble::-webkit-scrollbar {
+    width: 4px;
+  }
+
+
+  #ReputationBoxHome{
+    margin: 5px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    display: inline-block;
+    height: 30px;
+    width: 220px;
+    background-color: #0000005d;
+    border: none;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.651);
+    font-family: Calibri;
+
+  }
+
+
+  #ReputationBoxHome:hover{
+    cursor: pointer;
+    color: rgb(0, 238, 255);
+     box-shadow:  0px 0px 1px 1px rgb(255, 255, 255);
+-webkit-box-shadow:  0px 0px 1px 1px rgb(255, 255, 255);
+-moz-box-shadow:  0px 0px 1px 1px rgb(255, 255, 255); 
+  }
+
+
+  #nameofReputedUser{
+    margin-left: 15px;
+  }
+
+
+  #numberofReputation{
+    float: left;
+  }
+
+
+  #reputationPointsinHome{
+    float: right;
+  }

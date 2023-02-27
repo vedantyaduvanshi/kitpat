@@ -1,0 +1,13 @@
+#postBoxforLoader{
+        height: 605px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 560px;
+        margin: 12px auto;
+        justify-content: center;
+        border: 0.01px solid;
+        border-radius: 10px;
+        border-color: transparent;
+        background-color: #0000005d;
+}

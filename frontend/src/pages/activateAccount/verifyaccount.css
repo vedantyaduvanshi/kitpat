@@ -1,0 +1,130 @@
+#VerifyAccountPageComponent{
+    min-height:430px;
+    width: 700px;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    top: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 80px;
+   background-color: rgba(240, 248, 255, 0.062);
+}
+
+#celebrationgif{
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid wheat; */
+}
+
+#VerifyAccountPageComponent h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+#VerifyAccountPageComponent img{
+    margin-top: 20px;
+    height: 130px;
+    width: 130px;
+}
+
+#VerifyAccountPageComponent h2{
+    font-size: 26px;
+    color: rgb(0, 238, 255);
+    font-family:  Calibri, sans-serif;
+    font-weight: bold;
+}
+
+#VerifyAccountPageComponent hr{
+    width: 450px;
+    margin-top: 3px;
+   margin-bottom: 10px;
+   opacity: 0.6;
+}
+
+#VerifyAccountPageComponent p{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px 48px;
+    font-size: 15px;
+}
+
+#ContinuetoMail{
+    background-color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    height: 35px;
+    min-width: 180px;
+    width: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+
+#ContinuetoMail:hover{
+    background-color: rgba(255, 255, 255, 0.877);
+}
+
+#ContinuetoMail img{
+    margin-bottom: 20px;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+
+
+#lineVerifyAccount{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px 18px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+
+#lineVerifyAccount span{
+    text-decoration: none;
+    color: orange;
+}
+
+#lineVerifyAccount span:hover{
+    cursor: pointer;
+}
+
+#successmailsend{
+    margin-top: 5px;
+    color: rgb(18, 153, 0);
+    font-family: sans-serif;
+}
+
+#errormailsend{
+    margin-top: 5px;
+    color: rgb(255, 115, 0);
+    font-family: sans-serif;
+}
+
+#hint{
+    margin-top: 10px;
+    color: white;
+    font-family: monospace;
+    opacity: 0.6;
+}

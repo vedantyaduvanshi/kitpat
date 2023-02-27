@@ -1,0 +1,191 @@
+
+  
+  
+  /* #LandingNavBARRRRR */
+  #LandingNav {
+    width: 100%;
+    height: 110px;
+    /* border: 2px solid wheat; */
+    display: flex;
+  }
+  #LandingNav a {
+      text-decoration: none;
+      font-size: 15px;
+      font-family: 'Noto Sans TC', sans-serif;
+      color: #ffffff;
+  }
+  
+  #LandingNav a:hover{
+      color: #44d62c;
+  }
+  
+  #Landingleft {
+    margin-top: 70px;
+    margin-left: 29%;
+  }
+  
+  #LandingRight {
+    margin-top: 70px;
+    margin-left: 32%;
+  }
+  
+  #LandingRight a{
+      padding-left: 20px;
+  }
+  
+  
+  #kitpatLogo{
+    height: 50px;
+    position: fixed;
+    margin-left: 30px;
+    cursor: pointer;
+    margin-top: -80px;
+  }
+  
+  /* 
+  #LandingNavVVVBAARRRR END */
+  
+  #rocket{
+    position: absolute;
+  margin: 0px 50%;
+    z-index: -1;
+    -webkit-animation: action 1.5s infinite  alternate;
+    animation: action 1.5s infinite  alternate;
+  }
+  
+  @-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+  }
+  
+  @keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+  }
+  
+  #LandingTitle {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 99.8%;
+    /* border: 2px solid wheat; */
+  
+  }
+  
+  #tagline{
+  height: 300px;
+  width: 100%;
+  /* border: 2px solid wheat; */
+  text-align: center;
+  }
+  
+  #tagline span{
+    font-family: "Archivo Black", "Archivo", sans-serif;
+    font-weight: bold;
+    color: white;
+   font-size: 15px;
+  }
+  
+  #LandingTitle h1 {
+    position: relative;
+   margin: 220px auto;
+    text-transform: uppercase;
+    font-size: 130px;
+    font-family: "Archivo Black", "Archivo", sans-serif;
+    font-weight: normal;
+    color: white;
+    text-shadow: -1px -1px 1px var(--shadow-color-light),
+    -1px 1px 1px var(--shadow-color-light),
+    1px -1px 1px var(--shadow-color-light),
+    1px 1px 1px var(--shadow-color-light), 0 0 3px var(--shadow-color-light),
+    0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+    0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color),
+    0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color),
+    0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+  }
+  
+  
+  
+  
+  
+  #down_arrow{
+  
+    font-size: 100px;
+    margin-top: 100px;
+    transform: rotate(90deg);
+     color: white;
+   }
+  
+  
+  
+  
+  #hr2{
+    margin-top: 210px;
+  }
+  
+  #Explain{
+    height: 1100px;
+    width: 100%;
+    /* border: 2px solid wheat; */
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+  }
+  
+  #what{
+    height: 150px;
+    width: 100%;
+    /* border: 2px solid red; */
+    text-align: center;
+  }
+  
+  #what h1{
+    font-family: "Archivo Black", "Archivo", sans-serif;
+    margin-top: 40px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+  }
+  
+  #what span{
+    font-family: 'Righteous', cursive;
+    text-decoration: underline;
+    font-weight: normal;
+    color:#44d62c;
+    
+  }
+  
+  #Define{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid purple; */
+    font-size: 24px;
+    font-family: 'Noto Sans TC', sans-serif;
+  
+  }
+  
+  
+  #Define p{
+    color: aliceblue;
+  }
+  
+  
+  
+  #orange{
+    color: orange;
+  }
+  
+  
+  
+  #Explain iframe{
+    height: 600px;
+    width: 1000px;
+  
+    border-color: transparent;
+    border-radius: 14px;
+    box-shadow: 1px 1px 34px 18px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 34px 18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 34px 18px rgba(0,0,0,0.75);
+  }
+  

@@ -1,0 +1,215 @@
+#blurtheBackInProfile{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(15px);
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.137);
+}
+
+
+
+
+
+#UserListFollowUnfollow{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width: 500px;
+    background-color: black;
+    z-index: 1001;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#FollowersandFollowing{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#FollowersandFollowing button{
+    height: 50px;
+    width: 50%;
+    border-radius: 1px;
+    background-color: black;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+#buttonActive{
+    border-bottom: 2px solid rgb(0, 238, 255);
+}
+
+
+#FollowersandFollowing button:hover{
+    background-color: rgb(37, 37, 37);
+}
+
+
+
+#FollowersList{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(230, 255, 5, 0);
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    align-items: center;
+}
+
+#FollowersList::-webkit-scrollbar {
+    width: 6px;
+  }
+
+
+#FollowersList a{
+    text-decoration: none;
+}
+
+
+#FolloweingList{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(230, 255, 5, 0);
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    align-items: center;
+}
+
+#FolloweingList a{
+    text-decoration: none;
+}
+
+#FolloweingList::-webkit-scrollbar {
+    width: 6px;
+  }
+
+
+#userboxFollowers{
+    height: 55px;
+    width: 470px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #5e5d5dd7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 7px;
+}
+
+#userboxFollowers:hover{
+    background-color: #5e5d5dfd;
+}
+
+
+#imgnameusernameInUserBox{
+    height: 55px;
+    width: 320px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#buttonInUserBox{
+    height: 55px;
+    width: 150px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#userboxFollowers img{
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    height: 47px;
+    width: 47px;
+    margin-left: 5px;
+}
+
+#userboxFollowers img:hover{
+    filter: brightness(90%);
+}
+
+#firstNameFollower{
+    font-family: Calibri;
+    color: white;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+#firstNameFollower:hover{
+    text-decoration: underline;
+}    
+
+#usernameFollower{
+    font-family: Calibri;
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+
+#FollowButtonFollowers {
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    border-color: transparent;
+    background-color: rgb(0, 238, 255);
+    cursor: pointer;
+    margin-left: 35px;
+}
+
+
+#UnfollowButtonFollowers{
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    border-color: transparent;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-left: 35px;
+}
+
+
+
+#loaderinprofile{
+    margin-left: 20px;
+}
+
+
+#FollowsyouorNot{
+    font-family: Calibri;
+    color: rgb(0, 238, 255);
+    font-size: 14px;
+    margin-left: 6px;
+    opacity: 0.9;
+}

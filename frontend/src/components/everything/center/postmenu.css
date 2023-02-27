@@ -1,0 +1,52 @@
+#Post3dotOPtions{
+    position: absolute;
+    min-height: 150px;
+    max-height: 450px;
+    height:auto;
+    width: 250px;
+    border-radius: 10px;
+    background-color:  #000000c7;
+    box-shadow: 0px  0px 4px 1px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 0px  0px 4px 1px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0px  0px 4px 1px rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(25px);
+    margin-left: 340px;
+    margin-top: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+}
+#Post3dotOPtions:hover{
+ background-color:  #000000dc;
+}
+
+#Post3dotOPtions div{
+    height: 45px;
+    width: 100%;
+    opacity: 0.5;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Post3dotOPtions div:hover{
+opacity: 0.7;
+cursor: pointer;
+}
+#Post3dotOPtions div span{
+    margin-left: 10px;
+}
+
+
+#Post3dotOPtions hr{
+    width: 100%;
+    opacity: 0.1;
+    height: 0.1px;
+}
+

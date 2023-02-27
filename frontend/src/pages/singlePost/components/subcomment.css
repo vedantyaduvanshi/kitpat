@@ -1,0 +1,32 @@
+#LikeCommentShareinDetail1{
+    height: 30px;
+    width: 560px;
+    /* border: 2px solid whitesmoke; */
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    font-family: monospace;
+    font-weight: bolder;
+    color: white;
+}
+
+
+#hintforuserreply{
+    position: absolute;
+    width: 2px;
+    height: auto;
+    overflow-y: hidden;
+}
+
+#hehe{
+ width: 1px;
+ margin-left: 20px;
+ height: 100%;
+ position: absolute;
+ background-color: white;
+ opacity: 0.7;
+}
+

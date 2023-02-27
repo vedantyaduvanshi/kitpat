@@ -1,0 +1,238 @@
+#SettingsEverything {
+  height: 750px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+#NavigationSettings {
+  margin-top: 112px;
+  height: 650px;
+  width: 200px;
+  background: transparent;
+  border-radius: 10px;
+  backdrop-filter: blur(9px);
+}
+
+#DisplaySettings {
+  margin-top: 210px;
+  height: 550px;
+  width: 600px;
+  background: rgba(0, 0, 0, 0.247);
+  box-shadow: 0 0px 0px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(9px);
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#NavigationSettings button {
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: rgb(0, 238, 255);
+  color: #000000;
+  font-family: "Heebo", sans-serif;
+  font-size: 15px;
+  border-color: transparent;
+}
+
+#NavigationSettings button:hover {
+  background-color: rgb(116, 246, 255);
+  cursor: pointer;
+}
+
+#NavigationSettings h2 {
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  margin-top: 20px;
+  font-size: 25px;
+  color: white;
+}
+#NavigationSettings hr {
+  width: 199px;
+  opacity: 0.2;
+}
+
+#topmar {
+  margin-bottom: 10px;
+}
+
+#NavigationSettings div {
+  height: 50px;
+  width: 200px;
+  background: rgba(0, 0, 0, 0.247);
+  box-shadow: 0 0px 0px rgb(0 0 0 / 10%);
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  margin-top: 8px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+#NavigationSettings div:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.164);
+}
+
+#arrow {
+  box-sizing: border-box;
+  height: 12px;
+  width: 12px;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(316deg);
+  transition: border-width 150ms ease-in-out;
+  position: absolute;
+  margin-left: 150px;
+}
+
+#DisplaySettings h1 {
+  text-transform: uppercase;
+  font-size: 100px;
+  font-family: "Archivo Black", "Archivo", sans-serif;
+  font-weight: normal;
+  color: white;
+  margin-top: 130px;
+}
+
+#DisplaySettings p {
+  font-family: "Archivo Black", "Archivo", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+}
+
+#betweenhr {
+  margin-left: 18px;
+  margin-top: 215px;
+  height: 535px;
+  opacity: 0.2;
+}
+
+/* Aaccount Settings CSS */
+
+#AccountSettingsMenu {
+  height: 100%;
+  width: 100%;
+}
+
+#AccountSettingsMenu div {
+  height: 50px;
+  width: 600px;
+  display: inline-block;
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-top: 16px;
+  color: white;
+}
+
+#AccountSettingsMenu hr {
+  opacity: 0.1;
+}
+
+#AccountSettingsMenu div:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.164);
+}
+
+#AccountSettingsMenu div span {
+  opacity: 0.6;
+  float: right;
+  padding-right: 10px;
+}
+
+/* ///Change Pass word section css */
+
+#changePasswordSection {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#backbtnBackgroud {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff11;
+  margin: 8px 8px;
+}
+
+#backtomenuAccountSetting {
+  box-sizing: border-box;
+  height: 14px;
+  width: 14px;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(134deg);
+  transition: border-width 150ms ease-in-out;
+  position: absolute;
+  margin-left: 6px;
+}
+
+
+#backbtnBackgroud:hover{
+    cursor: pointer;
+}
+
+
+#changePasswordSection h3{
+  margin-top: 20px;
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+  padding: 0px 43px;
+  color: white;
+}
+
+
+#paraSecurityChangepass {
+  margin-top: 14px;
+  font-family: "Heebo", sans-serif;
+  font-size: 15px;
+  padding: 0px 43px;
+  color: white;
+  opacity: 0.7;
+}
+
+
+#changePasswordSection button{
+  margin-top: 10px;
+  width: 100px;
+  height: 25px;
+  margin-left: 402px;
+  background-color: rgb(0, 238, 255);
+  border-color: transparent;
+  border-radius: 8px;
+  font-family: "Heebo", sans-serif;
+  cursor: pointer;
+}
+
+
+#warningChangepass{
+  margin-top: 2px;
+  font-family: "Heebo", sans-serif;
+  font-size: 11px;
+  padding: 0px 43px;
+  color: white;
+  opacity: 0.5;
+}

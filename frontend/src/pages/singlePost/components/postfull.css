@@ -1,0 +1,343 @@
+
+
+
+
+
+
+#justSpaceinPostFull{
+    height: 15px;
+}
+
+
+
+
+#LikeCommentShareinDetail{
+    height: 30px;
+    width: 560px;
+    /* border: 2px solid whitesmoke; */
+   margin: -10px auto;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 200px;
+font-family: monospace;
+font-weight: bolder;
+   color: white;
+}
+
+
+#LikeCommentShareinDetail div:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.651);
+}
+
+
+
+
+
+#allComments{
+    min-height: 300px;
+    height: auto;
+    width: 560px;
+    margin: 20px auto;
+    align-items:center;
+    border: 0.01px solid;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #0000005d;
+    padding-bottom: 50px;
+}
+
+
+#LoggedinUserComment{
+    height: 200px;
+    width:  560px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+#textareainPostFull{
+    height: 75px;
+    width:  560px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+
+#textareainPostFull img{
+    height: 44px;
+    width: 44px;
+    border-radius: 40px;
+    border-color: transparent;
+    margin: 0px 0px;
+    object-fit: cover;
+}
+
+#textareainPostFull textarea{
+margin-left: 5px;
+height: 70px;
+width: 500px;
+border-color: transparent;
+background-color:transparent;
+resize: none;
+outline: none;
+border-radius: 2px;
+color: white;
+font-family: Calibri;
+font-size: 15px;
+padding: 5px 5px;
+}
+
+#textareainPostFull textarea::-webkit-scrollbar {
+    width: 7px;
+  }
+
+
+#characCountinCommenmts{
+    width:560px;
+    height: 20px;
+    margin-top: 0px;
+    /* border: 1px solid wheat; */
+    color: white;
+    font-family: Calibri;
+    padding-left: 503px;
+}
+
+#hr2nd{
+    width: 500px;
+    margin-left: 0px;
+    opacity: 0.4;
+}
+
+
+#addPhotoEmojiAndSendButton {
+    height: 40px;
+    width: 560px;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+}
+
+
+#addPhotoEmojiAndSendButton img {
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#addPhotoEmojiAndSendButton img:hover {
+height: 25.5px;
+}
+
+#addPhotoEmojiAndSendButton button {
+height: 30px;
+width: 120px;
+margin-left: 325px;
+border-color: transparent;
+border-radius: 10px;
+background-color: rgb(0, 238, 255);
+font-family: Heebo, sans-serif;
+cursor: pointer;
+}
+
+#hr3nd{
+    width: 100%;
+    margin-left: 0px;
+    opacity: 0.4;
+}
+
+
+#emojiPicker2{
+    margin-left: 113px;
+    margin-top: 110px;
+}
+
+
+
+    
+.emoji-picker-react .emoji-scroll-wrapper::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  #showingcommentImages{
+    height: 50px;
+    width: 100%;
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #showingcommentImages img{
+    height: 35px;
+    width: 35px;
+    border-radius: 8px;
+    opacity: 0.7;
+    filter: blur(0.4px);
+    margin-left: 10px;
+  }
+
+  #showingcommentImages img:hover{
+    filter: blur(0px);
+    opacity: 0.9;
+    cursor: pointer;
+  }
+
+
+  #deletethefilesComment{
+    position: absolute;
+    margin: 0px 515px;
+    height: 35px;
+    width: 35px;
+    border-radius: 3px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #deletethefilesComment img{
+    height: 32px;
+    width: 32px;
+    margin: 0px;
+  }
+
+  #showingcommentImages video{
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    opacity: 0.7;
+    filter: blur(0.4px);
+    margin-left: 10px;
+  }
+
+  #showingcommentImages video:hover{
+    filter: blur(0px);
+    opacity: 0.9;
+    cursor: pointer;
+  }
+
+
+
+  /* //All others comment */
+
+
+#OtherAllComments{
+min-height: 300px;
+width: 560px;
+height: auto;
+/* border: 2px solid wheat; */
+}
+
+
+
+/* Who Who liked the post */
+
+#blurtheBackGround {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.144);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+}
+
+
+
+#WhoWhoLiked {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width: 500px;
+    background-color: black;
+    z-index: 1001;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#HeadingLikedBy{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#HeadingLikedBy h2{
+    color: white;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: Calibri;
+    font-size: 23px;
+    cursor: pointer;
+    margin-right: 390px;
+}
+
+#lineafterLikedbyHEading{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.349);
+    opacity: 0.5;
+}
+
+
+#LikedByLists {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(230, 255, 5, 0);
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    align-items: center;
+}
+
+
+#LikedByLists::-webkit-scrollbar {
+    width: 6px;
+  }
+
+
+  #backbuttoninSinglePost{
+    width: 34%;
+    margin-top: 80px;
+    margin-left: 33%;
+    height: 55px;
+    position: fixed;
+    z-index: 3;
+    background-color: #0000005d;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  #backbuttonSinglePostnameandid{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
